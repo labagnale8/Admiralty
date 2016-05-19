@@ -1,50 +1,48 @@
 <body data-spy="scroll" data-target="#navigation" data-offset="75">
-      <!-- Page Preloader -->
-       <div class="page-mask">
-            <div class="page-loader">
-
-                <div class="spinner"></div>
-            </div>
+  <!-- Page Preloader -->
+    <div class="page-mask">
+      <div class="page-loader">
+        <div class="spinner"></div>
       </div>
-      <!-- /Page Preloader -->
+    </div>
+  <!-- /Page Preloader -->
 
-      <!-- Warpper -->
-      <div class="wrap with-logo">
+  <!-- Warpper -->
+  <div class="wrap with-logo">
 
-
-            <!-- Image Background Parallax -->
-            <div id="section" class="image-parallax" style="background-image: url(img/slider/bx1.jpg)">
-
-                  <div class="bg-overlay">
-                        <div class="slide-content light">
-                              <div class="align-center">
-                                    <!-- Top Logo -->
-                                    <div class="top-logo">
-                                          <div class="scrollNormal">
-                                                <a href="#section2">
-                                                      <img width="140" height="140" alt="Agency" src="img/logo_welcome.png">
-                                                </a>
-                                          </div>
-                                          <div class="scrollDown">
-                                                <a href="#section2">
-                                                      <img width="140" height="140" alt="Agency" src="img/logo2_welcome.png">
-                                                </a>
-                                          </div>
-                                    </div>
-                                    <!-- /Top Logo -->
-                                    <ul class="text-slide">
-                                          <li>Explore <span class="text-color">Agency</span> Theme</li>
-                                          <li><span class="text-color">creative</span> team work</li>
-                                          <li>Great <span class="text-color">features</span> included! </li>
-                                    </ul>
-                                    <a href="#section2" class="btn btn-1 img-btn">Learn More</a>
+  <!-- Image Background Parallax -->
+    <div id="section" class="image-parallax" style="background-image: url(img/slider/bx1.jpg)">
+      <div class="bg-overlay">
+            <div class="slide-content light">
+                  <div class="align-center">
+                        <!-- Top Logo -->
+                        <div class="top-logo">
+                              <div class="scrollNormal">
+                                    <a href="#section2">
+                                          <img width="140" height="140" alt="Agency" src="img/logo_welcome.png">
+                                    </a>
+                              </div>
+                              <div class="scrollDown">
+                                    <a href="#section2">
+                                          <img width="140" height="140" alt="Agency" src="img/logo2_welcome.png">
+                                    </a>
                               </div>
                         </div>
+                        <!-- /Top Logo -->
+                        <ul class="text-slide">
+                              <li>Explore <span class="text-color">Agency</span> Theme</li>
+                              <li><span class="text-color">creative</span> team work</li>
+                              <li>Great <span class="text-color">features</span> included! </li>
+                        </ul>
+                        <a href="#section2" class="btn btn-1 img-btn">Learn More</a>
                   </div>
             </div>
-            <!--/Image Background Parallax -->
+      </div>
+    </div>
+  <!--/Image Background Parallax -->
 
             <!-- Header -->
+    <%= partial "layouts/navbar" %>
             <!-- /Header -->
 
             <!-- Section 2 -->
@@ -1109,11 +1107,12 @@
 
             <!-- Scroll To Top -->
             <a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a>
-      </div>
+        <%= partial "layouts/navbar" %>
+
       <!-- /Warpper -->
 
       <!-- /Footer -->
-
+      <!-- /Footer -->
       <!-- The Scripts -->
       <script src="js/jquery.min.js"></script>
       <script src="js/jquery-migrate-1.0.0.js"></script>
@@ -1143,4 +1142,5 @@
       <script src="js/tytabs.js"></script>
       <script src="js/custom.js"></script>
 
+ </div>
 </body>

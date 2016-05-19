@@ -1,18 +1,26 @@
 <!doctype html>
 <html>
   <head>
+      <meta content="IE=edge" http-equiv="X-UA-Compatible">
       <meta charset="utf-8">
-      <title>Agency Parallax Responsive HTML5/CSS3 Template | FIFO THEMES</title>
-      <meta name="description" content="Agency Parallax Responsive HTML5/CSS3 Template from FIFOTHEMES.COM">
-      <meta name="author" content="FIFOTHEMES.COM">
+      <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+      <!-- Google Metas -->
+      <title>ADMIRALTY, Web agency which helps start-up!</title>
+      <meta name="description" content="Admiralty est une agence web a deux tetes:
+      1- nous realisons tous vos projets web: site vitrine, site e-commerce..etc
+      2- nous prenons part à votre projet de start-up">
       <!-- Mobile Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- Google Fonts -->
+      <!-- Facebook Metas -->
+      <meta property="og:title" content="Admiralty - The French innovative web agency">
+      <meta property="og:image" content="facebook-card.jpg">
+      <meta property="og:description" content="Developons votre projet">
+      <meta property="og:site_name" content="Admiralty"/>
 
+      <!-- Google Fonts -->
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-
       <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine" />
       <!-- Library CSS -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -44,10 +52,6 @@
       <link rel="stylesheet" href="css/ie.css">
       <![endif]-->
 
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Middleman" %></title>
 
@@ -59,8 +63,6 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= partial "layouts/navbar" %>
     <%= yield %>
-    <%= partial "layouts/footer" %>
   </body>
 </html>
