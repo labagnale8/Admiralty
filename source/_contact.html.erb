@@ -1,103 +1,113 @@
 <section id="section7" class="contacts">
   <!-- Subscription Wrap -->
-  <div class="subscription-wrap light">
-        <div class="texture-layer">
-              <div class="container">
-                    <!-- Title row -->
-                    <div class="row">
-                          <div class="col-md-12 big-title light wow bounceIn">
-                                <h2>Subscribe with us</h2>
-                          </div>
-                    </div>
-                    <!-- /Title row -->
-
-                    <!-- Subscription form -->
-                    <div class="row text-center">
-                          <div class="col-md-2"></div>
-
-                          <div class="col-md-8">
-                                <form method="post" action="#" id="signup">
-                                      <fieldset>
-                                            <span id="response"></span>
-
-                                            <input class="form-control subEmail wow fadeInLeft" type="text" placeholder="Email Address" id="subEmail" name="subEmail">
-                                            <button class="btn btn-1 wow fadeInRight">Join</button>
-
-                                            <div id="no-spam" class="wow fadeInUp">* We'll never spam or give this address away</div>
-                                      </fieldset>
-                                </form>
-                          </div>
-
-                          <div class="col-md-2"></div>
-                    </div>
-                    <!-- /Subscription form -->
+<!--   <div class="subscription-wrap light">
+    <div class="texture-layer">
+      <div class="container"> -->
+        <!-- Title row -->
+       <!--  <div class="row">
+              <div class="col-md-12 big-title light wow bounceIn">
+                    <h2>Subscribe with us</h2>
               </div>
-        </div>
-  </div>
+        </div> -->
+        <!-- /Title row -->
+
+        <!-- Subscription form -->
+        <!-- <div class="row text-center">
+          <div class="col-md-2"></div>
+
+          <div class="col-md-8">
+            <form method="post" action="#" id="signup">
+              <fieldset>
+                <span id="response"></span>
+
+                <input class="form-control subEmail wow fadeInLeft" type="text" placeholder="Email Address" id="subEmail" name="subEmail">
+                <button class="btn btn-1 wow fadeInRight">Join</button>
+
+                <div id="no-spam" class="wow fadeInUp">* We'll never spam or give this address away</div>
+              </fieldset>
+            </form>
+          </div>
+
+          <div class="col-md-2"></div>
+        </div> -->
+        <!-- /Subscription form -->
+
+     <!--  </div>
+    </div>
+  </div> -->
   <!-- /Subscription Wrap -->
 
   <!-- Contact form -->
   <div class="contact-form">
+    <div class="subscription-wrap light">
+      <div class="texture-layer">
         <div class="container">
-              <!-- Title row -->
-              <div class="row">
-                    <div class="col-md-12 big-title wow bounceIn">
-                          <h2>Contact</h2>
-                    </div>
+          <!-- Title row -->
+          <div class="row">
+                <div class="col-md-12 big-title wow bounceIn">
+                      <h2>Contact</h2>
+                </div>
 
-                    <div class="clearfix"></div>
+                <div class="clearfix"></div>
 
-                    <div class="col-md-12 sub-title text-center wow slideInRight">
-                          <h3>Contact with us to learn more about all of our Web Design Services!</h3>
-                    </div>
+                <div class="col-md-12 sub-title text-center wow slideInRight">
+                      <h3>Contact with us to learn more about all of our Web Design Services!</h3>
+                </div>
+          </div>
+          <!-- /Title row -->
+
+          <!-- Form element row -->
+          <div class="row text-center">
+            <div class="col-md-2"></div>
+              <div class="col-md-8">
+                <form method="post" class="reply" id="contact">
+                  <fieldset>
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInLeft">
+                            <div class="row">
+                              <div class="col-md-12">
+
+                              <form action="https://getsimpleform.com/messages?form_api_token=9f42a8b498c193cfb714c2772173e86f" method="post">
+                              <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                              <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+
+                                  <input class="form-control" id="name" name="name" type="text" placeholder="Name" value="" required>
+                              </div>
+                              <div class="col-md-12">
+                                  <input class="form-control" type="email" id="email" name="email" placeholder="Email" value="" required>
+                              </div>
+                              <div class="col-md-12">
+                                  <input class="form-control" type="text" id="subject" name="subject" placeholder="Subject" value="" required>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInRight">
+                            <div class="row">
+                              <div class="col-md-12">
+                                  <textarea class="form-control" id="text" name="text" rows="3" cols="40" placeholder="Your Message" required></textarea>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                              <div class="col-md-12 wow fadeInUp">
+                                    <button type="submit" value='Test form' class="btn btn-2 btn-2c">Send</button>
+                                    </form>
+                                    <div class="success alert-success alert" style="display:none">Your message has been sent successfully.</div>
+                                    <div class="error alert-danger alert" style="display:none">E-mail must be valid and message must be longer than 100 characters.</div>
+                              </div>
+                        </div>
+                  </fieldset>
+                </form>
               </div>
-              <!-- /Title row -->
 
-              <!-- Form element row -->
-              <div class="row text-center">
-                    <div class="col-md-2"></div>
-
-                    <div class="col-md-8">
-                          <form method="post" class="reply" id="contact">
-                                <fieldset>
-                                      <div class="row">
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInLeft">
-                                                  <div class="row">
-                                                        <div class="col-md-12">
-                                                              <input class="form-control" id="name" name="name" type="text" placeholder="Name" value="" required>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                              <input class="form-control" type="email" id="email" name="email" placeholder="Email" value="" required>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                              <input class="form-control" type="text" id="subject" name="subject" placeholder="Subject" value="" required>
-                                                        </div>
-                                                  </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInRight">
-                                                  <div class="row">
-                                                        <div class="col-md-12">
-                                                              <textarea class="form-control" id="text" name="text" rows="3" cols="40" placeholder="Your Message" required></textarea>
-                                                        </div>
-                                                  </div>
-                                            </div>
-                                      </div>
-                                      <div class="row">
-                                            <div class="col-md-12 wow fadeInUp">
-                                                  <button type="submit" class="btn btn-2 btn-2c">Send</button>
-                                                  <div class="success alert-success alert" style="display:none">Your message has been sent successfully.</div>
-                                                  <div class="error alert-danger alert" style="display:none">E-mail must be valid and message must be longer than 100 characters.</div>
-                                            </div>
-                                      </div>
-                                </fieldset>
-                          </form>
-                    </div>
-
-                    <div class="col-md-2"></div>
-              </div>
-              <!-- /Form element row -->
+            <div class="col-md-2"></div>
+          </div>
+          <!-- /Form element row -->
         </div>
+      </div>
+    </div>
   </div>
   <!-- /Contact form -->
 
@@ -113,3 +123,7 @@
 
 </section>
 <!-- /Section 7 -->
+
+
+
+
