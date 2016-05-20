@@ -40,8 +40,8 @@ GEM
     fastimage (2.0.0)
       addressable (~> 2)
     ffi (1.9.10)
-    font-awesome-sass (4.6.2)
-      sass (>= 3.2)
+    font-awesome-middleman (4.1.1)
+      middleman-core (>= 3.0.0)
     haml (4.0.7)
       tilt
     hamster (3.0.0)
@@ -143,7 +143,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  font-awesome-sass
+  font-awesome-middleman
   middleman (>= 4.0.0)
   middleman-autoprefixer
   middleman-compass (>= 4.0.0)
