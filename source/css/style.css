@@ -1202,7 +1202,9 @@ div.content-box.big div.content-box-info p {
         position: relative;
         padding: 0;
         width: 100%;
-        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        text-align: center;
         display: block;
     }
 
@@ -1218,6 +1220,7 @@ div.content-box.big div.content-box-info p {
         padding: 0;
         position: relative;
         overflow: hidden;
+        margin-left: 40;
     }
 
 .portfolio-item .img-holder {
