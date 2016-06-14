@@ -825,8 +825,8 @@ section.blog-small .container, section.blog .container {
 }
 
 section .container, footer .container {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 section.portfolio {
@@ -1197,7 +1197,6 @@ div.content-box.big div.content-box-info p {
 
 
 /* Portfolio Items */
-
     #portfolio-wrap {
         position: relative;
         padding: 0;
@@ -1209,7 +1208,7 @@ div.content-box.big div.content-box-info p {
     }
 
     #portfolio-wrap .one-four {
-        margin: 0!important;
+
         line-height:0;
         width: 25%;
         padding: 0;
@@ -1227,6 +1226,7 @@ div.content-box.big div.content-box-info p {
     display:block;
     overflow:hidden;
     position: relative;
+    width: 100%;
 }
 
 .img-holder img {
