@@ -1206,6 +1206,9 @@ div.content-box.big div.content-box-info p {
         text-align: center;
         display: block;
     }
+    #portfolio-wrap .container{
+      position:relative!important;
+    }
 
     #portfolio-wrap .one-four {
 
