@@ -439,7 +439,7 @@ ul.text-slide {
 
 .text-slide li {
     color:inherit;
-    font-size:80px;
+    font-size:40px;
     font-weight: 600;
     line-height:180px;
     letter-spacing:1px;
@@ -928,7 +928,7 @@ div.content-box.big div.content-box-info p {
 }
 
 .services p,.content p {
-    text-align: left;
+    text-align: center;
 }
 
 .service-box {
@@ -1104,13 +1104,14 @@ div.content-box.big div.content-box-info p {
 }
 
 .subscription-wrap {
-    background: url('../img/stylecss/plx5.jpg') 50% 0 no-repeat fixed;
+    background: url('../img/slider/caf-4.jpeg') 50% 0 no-repeat fixed;
 }
+/*../img/stylecss/plx5.jpg*/
 
 .fun-wrap {
-    background: url('../img/stylecss/plx2.jpg') 50% 0 no-repeat fixed;
+    background: url('../img/slider/ordi-2.jpeg') 50% 0 no-repeat fixed;
 }
-
+/*../img/stylecss/plx2.jpg*/
 
 .parallax-overlay {
     /* background: rgba(22, 26, 72, 0.6); */
