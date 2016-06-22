@@ -1,4 +1,4 @@
-/*Blue #2eaef0 & #026ea6 */
+/*Gray #555555 & #747474 */
 
 .btn:focus, .btn-2,
 ul.why li:before,
@@ -14,56 +14,56 @@ ul.why li:before,
 .cl-effect-21 .active a::before,
 .cl-effect-21 .active a::after,
 .post-date a.date i, .service-icon i  {
-    background: #2eaef0;
+    background: #747474;
 }
 
 .bg-color {
-    background: #2eaef0;
-	color: #fff;
+    background: #747474;
+  color: #fff;
 }
 
 .subscribe-btn {
-	background: #2eaef0;
-	cursor: pointer;
+  background: #747474;
+  cursor: pointer;
 }
 
 div.content-box.big div.content-box-info p, .content-box-info h4 {
-	color: #e7f7ff;
+  color: #ececec;
 }
 
 .about-wrap {
-    background: #2eaef0 no-repeat fixed center center;
+    background: #747474 no-repeat fixed center center;
 }
 
 
 .subscribe-btn:focus, .subscribe-btn:hover,
 .ch-item .ch-info-front {
-	background: #026ea6;
-	color: white;
+  background: #555555;
+  color: white;
 }
 
 
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus, .pager li > a:hover, .pager li > a:focus {
-    background-color: #2eaef0;
+    background-color: #747474;
     color: #fff;
 }
 
 
 .spinner {
-	border-top-color: #2eaef0;
+  border-top-color: #747474;
 }
 
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-	border-color: #2eaef0;
+  border-color: #747474;
 }
 
 .btn-2:hover, .btn-2:active, .btn-2 {
-	box-shadow: 0 4px #026ea6;
+  box-shadow: 0 4px #555555;
 }
 
 
 .author-content, #cn-tabs .service, .comment-des, .contact-box {
-	border-bottom-color:#2eaef0;
+  border-bottom-color:#747474;
 }
 
 a, a:hover, a:focus,
@@ -84,5 +84,5 @@ a, a:hover, a:focus,
 .fun,
 .btn-1:hover,
 .btn-1:active {
-    color: #2eaef0;
+    color: #747474;
 }

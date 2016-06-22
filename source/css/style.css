@@ -26,10 +26,39 @@
  23.Blog page
  24.Responsive Media Quaries
 -------------------------------------------------*/
+/*-------------------------------------------------------*/
+/* Ajoute
+/*-------------------------------------------------------*/
 
+  .footercontact{
+  color:white;
+  line-height: 15px;
+  letter-spacing: 1px;
+  }
+
+
+.fun-box-mentions {
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.fun-box-mentions i {
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+.fun-box-mentions p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+/*------------------/* 1. General code
 /*-------------------------------------------------------*/
-/* 1. General code
-/*-------------------------------------------------------*/
+
 
 html,
 body {
@@ -825,8 +854,8 @@ section.blog-small .container, section.blog .container {
 }
 
 section .container, footer .container {
-    padding-top: 50px;
-    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 section.portfolio {
@@ -1071,15 +1100,15 @@ div.content-box.big div.content-box-info p {
 }
 
 .quote-wrap {
-    background: url('../img/stylecss/plx5.jpg') 50% 0 no-repeat fixed;
+    background: url('../img/stylecss/plx2.jpg') 50% 0 no-repeat fixed;
 }
 
 .subscription-wrap {
-    background: url('../img/stylecss/plx4.jpg') 50% 0 no-repeat fixed;
+    background: url('../img/stylecss/plx5.jpg') 50% 0 no-repeat fixed;
 }
 
 .fun-wrap {
-    background: url('../img/stylecss/plx3.jpg') 50% 0 no-repeat fixed;
+    background: url('../img/stylecss/plx2.jpg') 50% 0 no-repeat fixed;
 }
 
 
@@ -1197,13 +1226,15 @@ div.content-box.big div.content-box-info p {
 
 
 /* Portfolio Items */
+
     #portfolio-wrap {
         position: relative;
         padding: 0;
         width: 100%;
         margin-top: 10px;
         margin-bottom: 40px;
-        text-align: center;
+        margin-left: auto
+        text: center;
         display: block;
     }
     #portfolio-wrap .container{
@@ -1211,7 +1242,7 @@ div.content-box.big div.content-box-info p {
     }
 
     #portfolio-wrap .one-four {
-
+        margin: 0!important;
         line-height:0;
         width: 25%;
         padding: 0;
@@ -1229,7 +1260,6 @@ div.content-box.big div.content-box-info p {
     display:block;
     overflow:hidden;
     position: relative;
-    width: 100%;
 }
 
 .img-holder img {
