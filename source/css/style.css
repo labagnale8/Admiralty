@@ -1112,16 +1112,9 @@ div.content-box.big div.content-box-info p {
 }
 
 .image-parallax {
- /*   height: 100%;
-    width: 100%;
-    position: relative;
-    background-attachment: fixed;*/
-    background-size: 100%;
-    width: 100%;
     height: 100%;
+    width: 100%;
     position: relative;
-    min-height: 620px;
-    background-repeat: no-repeat;
 }
 
 .image-parallax .slide-content {
