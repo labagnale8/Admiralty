@@ -26,10 +26,71 @@
  23.Blog page
  24.Responsive Media Quaries
 -------------------------------------------------*/
+/*-------------------------------------------------------*/
+/* Ajoute
+/*-------------------------------------------------------*/
 
+  .footercontact{
+  color:white;
+  line-height: 15px;
+  letter-spacing: 1px;
+  }
+
+
+.fun-box-mentions {
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.fun-box-mentions i {
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+.fun-box-mentions p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.img-port img{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+
+}
+
+.img-port:hover img{
+   -webkit-transform:rotate(7deg) scale(1.2);
+    -moz-transform:rotate(7deg) scale(1.2);
+    -ms-transform:rotate(7deg) scale(1.2);
+    -o-transform:rotate(7deg) scale(1.2);
+    transform:rotate(7deg) scale(1.2);
+}
+
+
+
+
+.slide1 {
+background-attachment: fixed;
+background-size: 100%;
+width: 100%;
+height: 100%;
+position: relative;
+min-height: 620px;
+background-repeat: no-repeat;
+}
+
+
+/*------------------/* 1. General code
 /*-------------------------------------------------------*/
-/* 1. General code
-/*-------------------------------------------------------*/
+
 
 html,
 body {
@@ -233,7 +294,7 @@ ul.fullwidth-slider li.slide {
     width: 100%;
     height: 100%;
     z-index: 0;
-    background-attachment:absolute ;
+    background-attachment:fixed ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -410,7 +471,7 @@ ul.text-slide {
 
 .text-slide li {
     color:inherit;
-    font-size:80px;
+    font-size:40px;
     font-weight: 600;
     line-height:180px;
     letter-spacing:1px;
@@ -825,8 +886,8 @@ section.blog-small .container, section.blog .container {
 }
 
 section .container, footer .container {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 section.portfolio {
@@ -847,6 +908,7 @@ div.content-box h4 {
     line-height: 32px;
     margin: 0 0 5px;
     font-weight: 600;
+    color:#566473;
 }
 
 div.content-box div.content-box-info {
@@ -899,7 +961,7 @@ div.content-box.big div.content-box-info p {
 }
 
 .services p,.content p {
-    text-align: left;
+    text-align: center;
 }
 
 .service-box {
@@ -934,11 +996,13 @@ div.content-box.big div.content-box-info p {
 
 .service-box-content h4 {
     margin-top: 0;
+    color: #F1F4F9;
 }
 
 
 .service-box:hover .service-icon i {
     background: #566473;
+
 }
 
 
@@ -1071,17 +1135,18 @@ div.content-box.big div.content-box-info p {
 }
 
 .quote-wrap {
-    background: url('../img/stylecss/plx5.jpg') 50% 0 no-repeat fixed;
+    background: url('../img/stylecss/plx2.jpg') 50% 0 no-repeat fixed;
 }
 
 .subscription-wrap {
-    background: url('../img/stylecss/plx4.jpg') 50% 0 no-repeat fixed;
+    background: url('../img/slider/caf-4.jpeg') 50% 0 no-repeat fixed;
 }
+/*../img/stylecss/plx5.jpg*/
 
 .fun-wrap {
-    background: url('../img/stylecss/plx3.jpg') 50% 0 no-repeat fixed;
+    background: url('../img/slider/ordi-2.jpeg') 50% 0 no-repeat fixed;
 }
-
+/*../img/stylecss/plx2.jpg*/
 
 .parallax-overlay {
     /* background: rgba(22, 26, 72, 0.6); */
@@ -1204,8 +1269,12 @@ div.content-box.big div.content-box-info p {
         width: 100%;
         margin-top: 10px;
         margin-bottom: 40px;
-        text-align: center;
+        margin-left: auto
+        text: center;
         display: block;
+    }
+    #portfolio-wrap .container{
+      position:relative!important;
     }
 
     #portfolio-wrap .one-four {
