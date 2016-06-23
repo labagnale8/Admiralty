@@ -56,6 +56,26 @@
     font-size: 16px;
     margin-bottom: 0;
 }
+
+.img-port img{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+
+}
+
+.img-port:hover img{
+   -webkit-transform:rotate(7deg) scale(1.2);
+    -moz-transform:rotate(7deg) scale(1.2);
+    -ms-transform:rotate(7deg) scale(1.2);
+    -o-transform:rotate(7deg) scale(1.2);
+    transform:rotate(7deg) scale(1.2);
+}
+
+
+
 /*------------------/* 1. General code
 /*-------------------------------------------------------*/
 
@@ -876,6 +896,7 @@ div.content-box h4 {
     line-height: 32px;
     margin: 0 0 5px;
     font-weight: 600;
+    color:#566473;
 }
 
 div.content-box div.content-box-info {
@@ -963,11 +984,13 @@ div.content-box.big div.content-box-info p {
 
 .service-box-content h4 {
     margin-top: 0;
+    color: #F1F4F9;
 }
 
 
 .service-box:hover .service-icon i {
     background: #566473;
+
 }
 
 
@@ -1104,7 +1127,7 @@ div.content-box.big div.content-box-info p {
 }
 
 .subscription-wrap {
-    background: url('../img/slider/caf-4.jpeg') 50% 0 no-repeat fixed;
+    background: url('../img/stylecss/plx4.jpg') 50% 0 no-repeat fixed;
 }
 /*../img/stylecss/plx5.jpg*/
 
