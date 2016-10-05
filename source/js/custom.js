@@ -286,7 +286,7 @@ Drop Down Menu Fade Effect
 
     //Google map
     jQuery('#maps').gMap({
-               address: "957 domaine de la vigne Bondues France",
+               address: " Rue du Fontenoy, 59100 Roubaix",
         zoom: 13,
         controls: {
          panControl: true,
@@ -297,9 +297,9 @@ Drop Down Menu Fade Effect
          overviewMapControl: true
      },
         markers: [{
-            latitude: 50.71839,
-            longitude: 3.07410,
-            html: "<h4 style='text-align:center'>Admiralty</h4> <p style='text-align:center'>957 dom de la vigne,</p> <p style='text-align:center'>59910 Bondues</p>",
+            latitude: 50.6980363,
+            longitude: 3.1689572000000226,
+            html: "<h4 style='text-align:center'>Admiralty</h4> <p style='text-align:center'> Blanchemaille by Euratechnologies</p> <p style='text-align:center'> Rue du Fontenoy,</p> <p style='text-align:center'>59100 Roubaix</p>",
             popup: true
         }]
     });
